@@ -1,0 +1,213 @@
+{
+    "endpointUrl": "https://cc-devt-525-019-be-2786182950.europe-central2.run.app/api/v1/chat",
+    "logLevel": "warn",
+  
+    "appearance": {
+      "minWidth": 270,
+      "widthPercent": 30,
+      "backgroundColor": "#dddddd",
+      "border": {
+        "width": 0,
+        "color": "#2fa3e8"
+      },
+      "borderRadius": {
+        "topLeft": 8,
+        "topRight": 8,
+        "bottomLeft": 8,
+        "bottomRight": 8
+      },
+      "marginBottom": 10,
+      "iconOffset": {
+        "x": 0,
+        "y": 0
+      }
+    },
+  
+    "header": {
+      "height": 50,
+      "backgroundColor": "#000000",
+      "border": {
+        "width": 1,
+        "color": "#000000"
+      },
+      "borderRadius": {
+        "topLeft": 8,
+        "topRight": 8,
+        "bottomLeft": 0,
+        "bottomRight": 0
+      },
+      "paddingBottom": 0,
+      "logo": {
+        "enabled": true,
+        "position": "top-left",
+        "customPosition": true,
+        "offset": { "x": 5, "y": -22 },
+        "size": 40,
+        "text": {
+          "offset": { "x": 45, "y": 9 },
+          "fontFamily": "inherit",
+          "fontWeight": "500",
+          "fontSize": "18px",
+          "color": "#2fa3e8",
+          "value": "Chatcloud AI"
+        },
+        "link": {
+          "enabled": false,
+          "url": "https://chatcloud.pro/"
+        }
+      }
+    },
+  
+    "messages": {
+      "height": 300,
+      "backgroundColor": "#ffffff",
+      "border": {
+        "width": 0,
+        "color": "#cccccc"
+      },
+      "borderRadius": 0,
+      "font": {
+        "family": "inherit",
+        "size": "13px",
+        "color": "#000000"
+      },
+      "paddingBottom": 0,
+      "incoming": {
+        "backgroundColor": "#eeeeee",
+        "textColor": "#000000",
+        "avatarSize": 30,
+        "avatarOffset": { "x": -3 },
+        "padding": { "left": 4, "right": 8 }
+      },
+      "outgoing": {
+        "backgroundColor": "#D6F5FF",
+        "textColor": "#000000",
+        "padding": { "left": 8, "right": 0 }
+      }
+    },
+  
+    "quickQuestions": {
+      "height": 45,
+      "backgroundColor": "#ffffff",
+      "border": {
+        "width": 0,
+        "color": "#000000"
+      },
+      "borderRadius": 0,
+      "paddingBottom": 1,
+      "button": {
+        "backgroundColor": "#D6F5FF",
+        "border": {
+          "width": 1,
+          "color": "#cccccc"
+        },
+        "borderRadius": 4,
+        "font": {
+          "family": "inherit",
+          "size": "13px",
+          "color": "#000000"
+        },
+        "padding": { "left": 8, "right": 8 },
+        "height": 30
+      },
+      "questions": [
+        "What is Chatcloud?",
+        "How can Chatcloud AI be useful?"
+      ]
+    },
+  
+    "input": {
+      "height": 60,
+      "backgroundColor": "#ffffff",
+      "border": {
+        "width": 0,
+        "color": "#cccccc"
+      },
+      "borderRadius": 0,
+      "font": {
+        "family": "inherit",
+        "size": "13px",
+        "color": "#000000"
+      },
+      "placeholder": {
+        "text": "Message…",
+        "fontFamily": "inherit",
+        "fontSize": "13px",
+        "color": "#888888"
+      },
+      "paddingBottom": 3
+    },
+  
+    "minimization": {
+      "enabled": true,
+      "iconSize": 60,
+      "position": "bottom-right",
+      "animationDurationMs": 300
+    },
+  
+    "typingIndicator": {
+      "enabled": true,
+      "dotCount": 3,
+      "animationSpeedMs": 350,
+      "dotSize": 30,
+      "dotColor": "#aaaaaa"
+    },
+  
+    "bounceAnimation": {
+      "enabled": false,
+      "amplitude": 10,
+      "speedMs": 500,
+      "initialDelaySeconds": 3
+    },
+  
+    "sound": {
+      "enabled": false,
+      "playbackRate": 1.0,
+      "volume": 0.5
+    },
+  
+    "customFonts": {
+      "enabled": true,
+      "fontFamily": "Montserrat"
+    },
+  
+    "notificationIcon": {
+      "enabled": false,
+      "position": "top-right",
+      "size": 32
+    },
+  
+    "streaming": {
+      "batchSize": 5,
+      "updateDelayMs": 200
+    },
+  
+    "tray": {
+      "enabled": true,
+      "initialDelaySeconds": 3,
+      "subsequentDelaySeconds": 1,
+      "messages": [
+        "👋 Hi there! I'm Chatcloud AI, ask me anything about Chatcloud!",
+        "We can train and deploy an AI chat on your website 😊"
+      ],
+      "widthLimit": 270,
+      "widthPercent": 30,
+      "minHeight": 18,
+      "backgroundColor": "#D6F5FF",
+      "border": {
+        "width": 0,
+        "color": "#cccccc"
+      },
+      "borderRadius": 6,
+      "font": {
+        "family": "inherit",
+        "size": "13px",
+        "color": "#000000"
+      },
+      "padding": 8,
+      "messageSpacing": 8,
+      "iconOffset": { "x": 0, "y": 0 },
+      "opacity": 0.9
+    }
+  }
+  
